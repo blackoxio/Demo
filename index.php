@@ -5,6 +5,8 @@ if(isset($_POST['cal']))
 {
   extract($_POST);
   
+  //echo dshjkfshdkjfhjskdhgfk
+  
   //calculate capping of binary pairs
   $capping = floor($capping / $binary);
   //initalize output
@@ -56,7 +58,7 @@ if(isset($_POST['cal']))
   <td><strong>Total:</strong></td>
   <td><strong>'.$sumMembers.'</strong></td>
   <td>&nbsp;</td>
-  <td><strong>'.$sumTotalBinary.'</strong></td>
+  <td><strong>'.$sumB.'</strong></td>
   
   <td>&nbsp;</td>
   <td><strong>'.$sumQualifiedBinary.'</strong></td>
